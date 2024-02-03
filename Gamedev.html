@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Lindsey Holtz - About</title>
+	<title>Lindsey Holtz - Game Development</title>
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
@@ -10,11 +10,14 @@
 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
 	<link href="LindseySite.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div id="wrapper">
-
 
 	<header>
 		<nav>
@@ -39,47 +42,16 @@
 	</header>
 
 	<div class="title">
-		<h2>About</h2>
+		<h2>Game Development</h2>
 	</div>
 
 	<main>
-
-		<img class="bridgepicture" src="images/bridgeme.JPG" alt="Picture of Me">
-
-		<p class="aboutabout"> Here is some more info about me!</p>
+		<div id="myCarousel" class="carousel">
+    <div class="carousel__slide"><iframe width="950" height="600" src="https://www.youtube.com/embed/2Llo6_wUkos?si=2p737G2ri_NS_lBN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p class="descriptionbox">Description:<br>A video game created for a game development class using Unity. Some of the game sprites were self created. The music used in the game is not my own music. The music is from the TV show Steven Universe and belongs to the creator Rebecca Sugar and Cartoon Network.</p></div>
 
 	</main>
 
-<div class="section">
-
-	<article>
-		<h3 class="headerone">Background</h3>
-			<div class="background">
-					<p>For as long as I can remember, I have always had a fasination with animated shows and movies. Like many others, I grew up watching Disney and I was mesmerized by the magic of animation. I knew that I wanted to have a job creating content for others. I started drawing very young, and took as many art classes and oppurtunities as I could. My inspiration comes from Disney, Pixar, and Dreamworks movies, as well as many of my favorite animated tv shows. I am still learning and growing my skills everyday. </p>
-			</div>
-	</article>
-
-	<article>
-		<h3 class="headertwo">Education</h3>
-			<div class="education">
-				<p>I graduated from Normal Community High school in 2020, and I am currently studying at Illinois State University with a major in Creative Technologies and Studio Art: Glass. I have a large range of skill sets including practice in digital art, animation, character design, character modeling, drawing, web design, video design, motion graphics, and graphic design. I have had experience with different programs and software including Adobe Programs and Maya. I also have many skills with 3D art including glassblowing, glass sculpting, mold making, ceramics, and sculpture.</p>
-			</div>
-	</article>
-
-	<article>
-		<h3 class="headerthree">Contact</h3>
-			<div class="reachme">
-				<p>For any business related inquiries you may contact me through my email or Instagram DMs.
-
-					<br><p>Email: holtz.lindsey@gmail.com</p>
-						<a href="https://www.instagram.com/lindseyloraart/" target="_blank" class="bi bi-instagram"></a>
-
-			</div>
-	</article>
-
-</div>
-
-<footer>
+	<footer>
 
 		<div class="contact">
 
@@ -92,7 +64,7 @@
 		<a href="https://www.instagram.com/lindseyloraart/" target="_blank" class="bi bi-instagram"></a>
 	</div>
 
-</footer>
+	</footer>
 
 	</div>
 
@@ -117,8 +89,13 @@
 
 		hamburger.addEventListener("click", toggleMenu);
 
-
 	</script>
+
+	<script>
+  const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+    // Your options go here
+  });
+</script>
+
 </body>
 </html>
-<!--boop-->
