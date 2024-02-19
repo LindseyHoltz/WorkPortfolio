@@ -18,12 +18,14 @@ header {
   padding: 0;
   width: 1200px;
   border: 0px solid #ff0000;
-  background-color: #21437D;
+  /*background-color: #21437D;*/
+  background-color: #F4EAE9;
   display: inline-flex;
   grid-column: span 12;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 10px;
-  box-shadow: -10px -10px 0px #F1CDD5;
+  /*box-shadow: -10px -10px 0px #F1CDD5;*/
+  box-shadow: -10px -10px 0px #F1CDD5;*/
 }
 
 h1 {
@@ -54,7 +56,8 @@ a {
 
 h1 a{
   text-decoration: none;
-  color: #F1CDD5;
+  /*color: #F1CDD5;*/
+  color: #CBB28E;
   transition: color 0.5s;
 }
 
@@ -92,8 +95,10 @@ nav li {
 }
 
 nav li a {
-  color: #21437D;
-  background-color: #8E82BF;
+  /*color: #21437D;*/
+  color: #2c363f;
+  /*background-color: #8E82BF;*/
+  background-color: #CBB28E;
   display: block;
   padding: 15px;
   text-decoration: none;
