@@ -103,14 +103,16 @@ nav li a {
   padding: 15px;
   text-decoration: none;
   transition: background-color 1.0s, width 2.0s, color 2.0s;
-  text-shadow: 3px 3px 4px #666;
+  /*text-shadow: 3px 3px 4px #666;*/
 }
 
 nav li a:hover {
-  color: #21437D;
+  /*color: #21437D;*/
+  color: #2c363f;
   text-decoration: none;
-  background-color: #C7B9FF;
-  text-shadow: 4px 4px 5px #666;
+  /*background-color: #C7B9FF;*/
+  background-color: #C3B28E;
+  /*text-shadow: 4px 4px 5px #666;*/
 }
 
 nav li a:visited {
@@ -127,7 +129,8 @@ main {
   grid-column: span 12;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 10px;
-  box-shadow: 10px 10px 0px #21437D;
+  /*box-shadow: 10px 10px 0px #21437D;*/
+  box-shadow: 10px 10px 0px #F4EAE9;
 }
 
 .me {
@@ -147,6 +150,7 @@ main {
   margin-left: 42px;
   margin-top: 80px;
   color: #21437D;
+  color: #CBB28E;
   text-align: center;
   font-family: bc-alphapipe,sans-serif;
   font-weight: 400;
@@ -239,6 +243,7 @@ main {
   right: 50%;
   Left: 30%;
   color: #21437D;
+  color: #F1CDD5;
   font-size: 70px;
   margin-bottom: 0px;
   opacity: 0;
@@ -250,7 +255,7 @@ main {
 
 .chihiro:hover div {
   visibility: visible;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .sloth {
@@ -269,6 +274,7 @@ main {
   right: 50%;
   Left: 25%;
   color: #21437D;
+  color: #F1CDD5;
   font-size: 70px;
   margin-bottom: 0px;
   opacity: 0;
@@ -280,7 +286,7 @@ main {
 
 .sloth:hover div {
   visibility: visible;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 footer {
@@ -293,6 +299,7 @@ footer {
   grid-column: span 12;
   text-align:;
   box-shadow: -10px -10px 0px #21437D;
+  box-shadow: -10px -10px 0px #F4EAE9;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 10px;
 }
@@ -303,6 +310,7 @@ footer {
   padding-right: 794px;
   display: inline-block;
   color: #21437D;
+  color: #CBB28E;
   text-align: left;
   font-size: 20px;
   font-family: bc-alphapipe,sans-serif;
@@ -316,6 +324,7 @@ footer {
 
 footer .social a {
   color: #21437D;
+  color: #CBB28E;
   font-size: 60px;
   padding-left: 12px;
   text-align: right;
@@ -323,6 +332,7 @@ footer .social a {
 
 footer .contact a {
   color: #21437D;
+  color: #CBB28E;
 }
 
 footer a:hover {
