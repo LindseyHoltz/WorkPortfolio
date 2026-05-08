@@ -661,3 +661,35 @@ h3 {
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+
+/* Capstone Page */
+
+.poster {
+  display: inline-block;
+  padding: px;
+  width: px;
+  border-radius: px;
+}
+
+.capstonetitle {
+  /*background-color: #6B8ABE;*/
+  font-family: bc-alphapipe, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  padding:
+  margin-bottom: 24px;
+  color: darkseagreen
+}
+
+.capstonediscription {
+  /*background-color: #6B8ABE;*/
+  font-family: bc-alphapipe, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 24px;
+  text-align: left;
+}
